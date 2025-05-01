@@ -1,8 +1,10 @@
-AUTHOR = 'SM'
-SITENAME = 'SM Blog'
-SITEURL = ""
+AUTHOR = 'SolarMonitor Team'
+SITENAME = 'SolarMonitor Blog'
+# SITEURL = 'https://blog.solarmonitor.org'
 
 PATH = "content"
+
+# THEME = "simple"
 
 TIMEZONE = 'Europe/Dublin'
 
@@ -15,18 +17,18 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+MENUITEMS = ()
+
 # Blogroll
 LINKS = (
-    ("Pelican", "https://getpelican.com/"),
-    ("Python.org", "https://www.python.org/"),
-    ("Jinja2", "https://palletsprojects.com/p/jinja/"),
-    ("You can modify those links in your config file", "#"),
+    ("SolarMonitor", "https://solarmonitor.org"),
+    ("SolarMonitor2.0", "https://test.solarmonitor.org"),
 )
 
 # Social widget
 SOCIAL = (
-    ("You can add links in your config file", "#"),
-    ("Another social link", "#"),
+    ("Twitter", "https://twitter.com/SolarMonitororg"),
+    ("GitHub", "https://github.com/SolarMonitor"),
 )
 
 DEFAULT_PAGINATION = 10
